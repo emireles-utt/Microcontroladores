@@ -6,7 +6,8 @@ Trabajo Microcontroladores.
 	1.3. Descripcion del Stack Pointer y su uso en ASM.
 	1.4. Tiempo de ejecucion de una instruccion (Cortex-M3).
 	1.5. Reset del ARM.
-	1.6. Buses internos del microcontrolador (I-Bus, D-Bus, System-Bus, AHB-Bus, APB1-Bus y APB2-Bus)
+	1.6. Buses internos del microcontrolador (I-Bus, D-Bus, System-Bus, AHB-Bus, APB1-Bus y APB2-Bus).
+	1.7 El CMSIS.
 	
 2. Memorias de los Microcontroladores ARM (STM32).
 	2.1. Memoria de programa FLASH.
