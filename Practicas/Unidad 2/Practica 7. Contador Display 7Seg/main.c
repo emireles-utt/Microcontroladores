@@ -123,7 +123,7 @@ int main(void)
 	/* Initialize all configured peripherals */
 	MX_GPIO_Init();
 	/* USER CODE BEGIN 2 */
-	GPIOA->ODR = ~desplegar(conta);
+	GPIOA->ODR = desplegar(conta);
 	HAL_Delay(RETARDO);
 	/* USER CODE END 2 */
 
@@ -134,7 +134,7 @@ int main(void)
 		conta++;
 		if(conta > 9)
 			conta = 0;
-		GPIOA->ODR = ~desplegar(conta);
+		GPIOA->ODR = desplegar(conta);
 		HAL_Delay(RETARDO);
 	/* USER CODE END WHILE */
 
